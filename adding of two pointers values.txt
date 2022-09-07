@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+int *p,number=50;
+int *p1,number1=150;
+p=&number;
+p1=&number1;
+printf("adresss of p variable is %u\n",p);
+printf("value of a p variable is %d \n",*p);
+printf("\n%d",*p+*p1);
+++*p;
+printf("\n value of a p variable is %d",++*p);
+return 0;
+}
+   
