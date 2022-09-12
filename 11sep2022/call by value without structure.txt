@@ -1,0 +1,13 @@
+#include <stdio.h>
+void func(int ,float);
+int main(){
+    int x=45;
+   
+   float v=4.5;
+    func(x,v);
+}
+void func(int b ,float c){
+    printf("%d\n",b);
+  
+    printf("%f\n",c);
+}
