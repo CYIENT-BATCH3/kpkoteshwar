@@ -1,0 +1,17 @@
+ #include <stdio.h>
+  struct student{
+      int age;
+      char name[6];
+  };
+void details(struct student record);
+int main(){
+    struct student record;
+    record.age = 14;
+    strcpy(record.name,"kp");
+    details(record);
+}
+void details(struct student record)
+{
+    printf("age is %d\n",record.age);
+    printf("name is %s\n",record.name);
+}
