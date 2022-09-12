@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include<stdlib.h>
+ int rand();
+int main(){
+    int i;
+    for(i=0;i<12;i++){
+     printf("%d\n ",rand()%20);
+    }
+}

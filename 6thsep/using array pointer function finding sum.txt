@@ -1,0 +1,16 @@
+#include <stdio.h>
+float a[5]={1.3,2.4,3.5,1.2,8.9},n,sum=0,result;
+float avg(float* a1,int n);
+int ap=10,*p;
+void main(){
+    p=&ap;
+    printf("value:%d",p);
+    printf("\nvalue:%d",*p);
+   result=avg(a,5);
+}
+float avg(float* a5,int n){
+    for(int i=0;i<n;i++){
+        sum+=a[i];
+    }
+    printf("%f",sum);
+}

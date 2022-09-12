@@ -1,0 +1,15 @@
+#include <stdio.h>
+void result(int a,int b,int *p,int *q);//function declaration
+
+int main()
+{
+   int a=2,b=10;//declaring
+   int *q=&a,*r=&b;//storing
+  result(a,b,q,r);// function calling 
+   printf("%d %d",*q,*r);
+}
+void result(int x,int y,int *q,int *r){//function call
+    *q=y/x;//gets remainder and assinging to adress 
+    *r=y%x;//gets quotient and assinging to adress
+   // printf("%d %d",*q,*r);
+}

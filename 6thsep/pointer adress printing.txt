@@ -1,0 +1,11 @@
+int main()
+{
+    int c;
+   int a=20;
+   float b=1.4;
+    int *p=&a;
+   float *f=&b;
+  
+   printf("%p\n %f\n %d\n %f\n",*p,*f,&p,&f);
+}
+   
