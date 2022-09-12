@@ -1,0 +1,19 @@
+#include <stdio.h>
+int noofdigits(int n1);
+int ctr=0;
+int main(){
+    int n1,ctr;
+    printf("count the numbers\n");
+    printf("input a number");
+    scanf("%d",&n1);
+    ctr=noofdigits(n1);
+    printf("the number if digits in the number is :%d\n",ctr);
+    return 0;
+}
+int noofdigits(int n1){
+    if(n1!=0){
+        ctr ++;
+        noofdigits(n1/10);
+    }
+    return ctr;
+}
