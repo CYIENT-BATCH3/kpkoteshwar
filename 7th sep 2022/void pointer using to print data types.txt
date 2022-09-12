@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+   int a=20;
+   float b=30.3;
+    // c=45;
+    void *p;
+   p=&a;
+   printf("value of a is %d\n",*(int*)p);
+   p=&b;
+   printf("value of b is %f",*(float*)p);
+  // p=&c;
+  // printf("value of c is %l ",*(long int*)p)
+   
+   
+}
