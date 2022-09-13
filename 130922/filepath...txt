@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+	int var;
+	FILE *fp=NULL;
+	char ch;
+	fp=fopen("C:\\Users\\kk69913\\Documents\\11 09 22\\filepathkp.c","r");
+
+	if(fp==NULL){
+		printf("file not found");
+		exit(1);
+	}
+	fscanf(fptr,"%d",&val);
+	printf("%d",(char)val);
+	fclose(fptr);
+	return 0;
+}
