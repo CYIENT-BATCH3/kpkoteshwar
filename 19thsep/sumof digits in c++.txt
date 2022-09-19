@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num,rem,sum=0;
+    cout<<"enter a interger to fing sum of digits:";
+    cin>>num;
+    while(num){
+        rem=num%10;
+        sum=sum+rem;
+        num=num/10;
+    }
+    cout<<"the sum of digits:<<sum         "<<sum;
+    //cout<<sum;
+} 
