@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+class my class{
+    public:      //public accces specifier
+    int x;       //public attribute
+    private:     //private acces specifier
+    int y;      //private attribute
+};
+
+int main()
+{
+    my class myobj;  
+    myobj.x=25;   //allowed(public)
+    cout<<myobj.x;   //printing
+}
