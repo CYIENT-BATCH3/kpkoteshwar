@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+class student{
+    int age;
+    float fee;
+ public:   
+int input(){
+    cout<<"enter the age";
+    cin>>age;
+    cout<<"enter the fee";
+    cin>>fee;
+   
+}
+int display(){
+    cout<<"my age is";
+     cout<<"my fee";
+}
+};
+int main(){
+    student s1;
+    s1.input();
+    s1.display();
+    
+}
