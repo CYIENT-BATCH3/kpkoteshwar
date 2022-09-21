@@ -4,7 +4,7 @@ int main()
 {
    int a[10],num,i;//decla
   printf("enter the decimal number:");
- // scanf("%d",&num);
+  scanf("%d",&num);
    for(i=0;num>0;i++){
        a[i]=num%2;
        num=num/2;
